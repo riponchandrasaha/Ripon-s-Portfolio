@@ -4,11 +4,11 @@ import cssLogo from './assets/tech_logo/css.png';
 import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
+/* import angularLogo from './assets/tech_logo/angular.png'; */
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
+/* import gsapLogo from './assets/tech_logo/gsap.png'; */
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
@@ -53,6 +53,7 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import removebgLogo1 from './assets/work_logo/image.png';
 
 
 export const SkillsInfo = [
@@ -182,10 +183,10 @@ export const SkillsInfo = [
       id: 1,
       img: bsaLogo,
       school: "East West University",
-      date: "Sept 2018 - Aug 2021",
+      date: "2020 - 2025",
       /* grade: "73.2%", */
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from East West University, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      desc: "I completed my Bachelor's degree in Computer Science & Engineering (B.Sc.) from East West University, Dhaka, Bangladesh. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      degree: "Bachelor of Science - Computer Science & Engineering ",
     },
     /* {
       id: 2,
@@ -218,7 +219,7 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
       webapp: "https://githubprofiledetective.netlify.app/",
     }, */
-    {
+   /*  {
       id: 1,
       title: "CS Prep",
       description:
@@ -237,8 +238,8 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/codingmastr/Movie-Recommendation-App",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
+    }, */
+   /*  {
       id: 3,
       title: "Email Validator NPM Package",
       description:
@@ -267,8 +268,8 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://webversedigital.com/",
-    },
-    {
+    }, */
+    /* {
       id: 6,
       title: "Coding Master",
       description:
@@ -277,7 +278,7 @@ export const SkillsInfo = [
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
       github: "https://codingmasterweb.in/",
       webapp: "https://codingmasterweb.in/",
-    },
+    }, */
     {
       id: 7,
       title: "Image Search App",
@@ -293,7 +294,7 @@ export const SkillsInfo = [
       title: "Image Background Remover",
       description:
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
+      image: removebgLogo1,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
@@ -28,7 +28,7 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -66,12 +66,12 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-2">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[50%] max-w-3xl overflow-hidden relative">
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
-                className="text-white text-3xl font-bold hover:text-purple-500"
+                className="text-white text-2xl font-bold hover:text-purple-500"
               >
                 &times;
               </button>
