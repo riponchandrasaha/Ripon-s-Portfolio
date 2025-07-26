@@ -42,18 +42,18 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          "I am a passionate full-stack web developer with strong foundational knowledge in building modern and responsive web applications. Proficient in the MERN stack (MongoDB, Express.js, React, Node.js), I have completed several full-stack projects that demonstrate my ability to develop both client-side and server-side applications. I’m eager to contribute to real-world development teams and grow as a software engineer by solving meaningful problems with clean, efficient code."
+            "I am a passionate full-stack web developer with strong foundational knowledge in building modern and responsive web applications. Proficient in the MERN stack (MongoDB, Express.js, React, Node.js), I have completed several full-stack projects that demonstrate my ability to develop both client-side and server-side applications. I’m eager to contribute to real-world development teams and grow as a software engineer by solving meaningful problems with clean, efficient code."
           </p>
           {/* Resume Button */}
           <a
             href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
-            style={{
+            className="btn btn-dash btn-secondary"
+            /* style={{
               background: 'linear-gradient(90deg, #8245ec, #a855f7)',
               boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
-            }}
+            }} */
           >
             DOWNLOAD CV
           </a>
@@ -79,9 +79,11 @@ const About = () => {
           </Tilt>
         </div>
       </div>
+
       <div>
-          <img className=' mt-5 rounded-lg' src={profileImage1} alt=""  />
-        </div>
+      {/*   <button href="https://leetcode.com/problems/implement-stack-using-queues/description/" rel="noopener noreferrer" className="btn btn-dash btn-secondary">Download CV</button> */}
+        <img className=' mt-5 rounded-lg' src={profileImage1} alt="" />
+      </div>
     </section>
   );
 };
