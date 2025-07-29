@@ -1,6 +1,6 @@
-import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaRegMoneyBillAlt } from "react-icons/fa";
-import { FaVoicemail, FaX } from "react-icons/fa6";
+
+import { FaFacebook, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+
 
 const Footer = () => {
   // Smooth scroll function
@@ -22,7 +22,7 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
+            /* { name: "Experience", id: "experience" }, */
             { name: "Projects", id: "projects" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
@@ -36,16 +36,18 @@ const Footer = () => {
           ))}
         </nav>
 
+
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/riponsahaCSE/" },
            /*  { icon: <FaX />, link: "https://twitter.com/CodingMaster6?s=09" }, */
             { icon: <FaLinkedin/>, link: "https://www.linkedin.com/in/riponchandrasaha/" },
-            /* { icon: <FaInstagram />, link: "https://www.instagram.com/coding_.master/" }, */
+            { icon: <FaEnvelope />, link: "mailto:riponsaha199@gmail.com" },
+            { icon: <FaWhatsapp />, link: "+8801862785956" },
            /*  { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" }, */
-            /* { icon: <FaRegMoneyBillAlt/>, link: "https://www.youtube.com/codingmasteryt" },
- */
+            /* { icon: <FaRegMoneyBillAlt/>, link: "https://www.youtube.com/codingmasteryt" }, */
+
           ].map((item, index) => (
             <a
               key={index}

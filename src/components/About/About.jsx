@@ -3,7 +3,11 @@ import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.jpg';
 import profileImage1 from '../../assets/profile3.jpg';
+import { RxResume } from 'react-icons/rx';
 
+import { TbFileCv } from 'react-icons/tb';
+import { VscVerifiedFilled } from 'react-icons/vsc';
+import { GiGraduateCap } from 'react-icons/gi';
 const About = () => {
   return (
     <section
@@ -18,9 +22,15 @@ const About = () => {
             Hi, I am
           </h1>
           {/* Name */}
-          <h2 className="text-2xl sm:text-5xl md:text-2xl font-bold text-red-700 mb-4 leading-tight">
-            Ripon Chandra Saha
-          </h2>
+          <h2 className="flex gap-2 text-2xl sm:text-5xl md:text-2xl font-bold text-purple-700 mb-4 leading-tight
+               justify-center sm:justify-start text-center sm:text-left">
+  Ripon Chandra Saha
+  <div className="text-blue-700">
+    <VscVerifiedFilled />
+  </div>
+</h2>
+
+
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
@@ -43,42 +53,23 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-           {/*  <ReactTypingEffect
-              text={[
 
-                'I am a passionate full-stack web developer with strong foundational knowledge in building modern and responsive web applications.',
-' Proficient in the MERN stack (MongoDB, Express.js, React, Node.js)',
-
-'I have completed several full-stack projects that demonstrate my ability to develop both client-side and server-side applications.',
-'I’m eager to contribute to real-world development teams and grow as a software engineer by solving meaningful problems with clean, efficient code.'
-
-
-
-              ]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
-              )}
-            /> */}
             I am a passionate full-stack web developer with strong foundational knowledge in building modern and responsive web applications.
             Proficient in the MERN stack (MongoDB, Express.js, React, Node.js), I have completed several full-stack projects that demonstrate my ability to develop both client-side and server-side applications. I’m eager to contribute to real-world development teams and grow as a software engineer by solving meaningful problems with clean, efficient code.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1WEoyupQXmZrv7PI1s36l_PkIYwmq6r2S/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1kcRalCxWb5tWQ9PcbvAy2vy-DCncW0Tw/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dash btn-secondary bg-center "
-          /* style={{
-            background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-            boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
-          }} */
+            className="btn btn-dash btn-secondary text-[#8245ec]"
+
           >
+            <RxResume />
+            <TbFileCv />
             Download Resume
           </a>
+          {/* <Button></Button> */}
 
         </div>
 
@@ -108,15 +99,23 @@ const About = () => {
           className=" border-4 border-purple-700 rounded-lg"
           tiltMaxAngleX={20}
           tiltMaxAngleY={20}
-          perspective={1000}
-          scale={1.5}
-          transitionSpeed={1000}
+          perspective={10000}
+          scale={1.05}
+          transitionSpeed={10}
           gyroscope={true}
         >
           <img className=' mt-5 rounded-lg' src={profileImage1} alt="" />
-          <h3 className=' text-purple-700 text-2xl text-center'>Convocation 2025</h3>
+          <h3 className='text-purple-700 text-2xl text-center flex justify-center p-4 gap-2 font-semibold'>
+            <GiGraduateCap /> Convocation 2025
+          </h3>
+
         </Tilt>
         {/*   <button href="https://leetcode.com/problems/implement-stack-using-queues/description/" rel="noopener noreferrer" className="btn btn-dash btn-secondary">Download CV</button> */}
+
+
+
+
+
 
       </div>
 

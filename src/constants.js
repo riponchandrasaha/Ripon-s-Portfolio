@@ -185,7 +185,7 @@ export const SkillsInfo = [
       school: "East West University",
       date: "2020 - 2025",
       /* grade: "73.2%", */
-      desc: "I completed my Bachelor's degree in Computer Science & Engineering (B.Sc.) from East West University, Dhaka, Bangladesh. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      desc: "I completed my Bachelor's degree in Computer Science & Engineering (B.Sc.) from East West University, Dhaka, Bangladesh. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at University allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Science - Computer Science & Engineering ",
     },
     /* {
@@ -291,12 +291,12 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "Food Management System",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+        "Developed a full-stack restaurant and food ordering web application that allows users to browse the menu, place orders and make payments securely. Implemented user authentication, role-based access (admin/user), and real-time data fetching with React Query.",
       image: removebgLogo1,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+      tags: ["React JS", "API", "Tailwind CSS", "HTML", "Node JS", "Javascript","MongoDB","DaisyUI"],
+      github: "https://github.com/riponchandrasaha/bitro-boss-client",
+      webapp: "https://bistro-boss-8543b.web.app/",
     },
   ];
