@@ -30,11 +30,11 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
+import Dui from './assets/tech_logo/Dui.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
+import bp from './assets/company_logo/betopiagroup_logo.jpeg';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
@@ -69,7 +69,7 @@ export const SkillsInfo = [
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      /* { name: 'GSAP', logo: gsapLogo }, */
+      { name: 'Daisy UI', logo: Dui},
       { name: 'Material UI', logo: materialuiLogo },
       /* { name: 'Bootstrap', logo: bootstrapLogo }, */
     ],
@@ -114,7 +114,7 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
-    {
+   /*  {
       id: 0,
       img: webverseLogo,
       role: "Fullstack Developer",
@@ -133,8 +133,8 @@ export const SkillsInfo = [
         "Redux",
         " Next Js",
       ],
-    },
-    {
+    }, */
+    /* {
       id: 1,
       img: agcLogo,
       role: "Fullstack Engineer",
@@ -150,21 +150,28 @@ export const SkillsInfo = [
         "CSS",
         "SQL",
       ],
-    },
+    }, */
     {
       id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      img: bp,
+      role: "Trainee Frontend Developer",
+      company: "Betopia Group",
+      date: "August 2025 - Present",
+      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Tailwind, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
       skills: [
         "HTML",
         "CSS",
         "Javascript",
-        "Bootstrap",
+
         "Figma",
         "Material UI",
+        "React JS",
+        "TypeScript",
+
+        "Tailwind CSS",
+        "MongoDb",
+        "Redux",
+        " Next Js",
       ],
     },
   ];
@@ -286,7 +293,7 @@ export const SkillsInfo = [
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
       image: imagesearchLogo,
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
+      /* github: "https://github.com/codingmastr/Image-Search-App", */
       webapp: "https://imagsearch.netlify.app/",
     },
     {

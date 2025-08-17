@@ -62,7 +62,7 @@ const About = () => {
             href="https://drive.google.com/file/d/1kcRalCxWb5tWQ9PcbvAy2vy-DCncW0Tw/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dash btn-secondary text-[#8245ec]"
+            className="btn btn-dash btn-primary"
 
           >
             <RxResume />
