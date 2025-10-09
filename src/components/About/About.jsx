@@ -59,7 +59,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1kcRalCxWb5tWQ9PcbvAy2vy-DCncW0Tw/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1xPdPxBxIiIYxdrOfv7rtpE_FajH1Dfem/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-dash btn-primary"
