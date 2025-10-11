@@ -45,7 +45,7 @@ import bsaLogo from './assets/education_logo/ewulogo.png';
 
 // Project Section Logo's
 import gocart from './assets/work_logo/gocart.jpg';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import Chatapp from './assets/work_logo/Chatapp.jpg';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
@@ -114,43 +114,7 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
-   /*  {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    }, */
-    /* {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    }, */
+
     {
       id: 2,
       img: bp,
@@ -177,15 +141,7 @@ export const SkillsInfo = [
   ];
 
   export const education = [
-    /* {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    }, */
+
     {
       id: 1,
       img: bsaLogo,
@@ -195,24 +151,7 @@ export const SkillsInfo = [
       desc: "I completed my Bachelor's degree in Computer Science & Engineering (B.Sc.) from East West University, Dhaka, Bangladesh. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at University allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "Bachelor of Science - Computer Science & Engineering ",
     },
-    /* {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    }, */
-    /* {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    }, */
+
   ];
 
   export const projects = [
@@ -227,16 +166,17 @@ export const SkillsInfo = [
       github: "https://github.com/riponchandrasaha/gocart",
       webapp: "https://gocart-lake.vercel.app/",
     },
-   /*  {
+   {
       id: 1,
-      title: "CS Prep",
+      title: " Fullstack Next.js 15 Real-Time Chat App ",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "I’m building a modern and fast frontend using Next.js 15 and React, styled with Tailwind CSS for a clean, responsive user interface. The backend is powered by MongoDB with Prisma for efficient database management. To ensure secure user authentication and session handling, I’ve integrated NextAuth. For global state management, I’m using Zustand, which keeps the application state simple and predictable. The project is written in TypeScript to maintain type safety and reduce bugs. Additionally, Pusher enables real-time messaging without needing page refreshes, while Cloudinary efficiently handles image and file uploads. Finally, the entire application is deployed seamlessly on Vercel, making it live and accessible on the web.",
+      image: Chatapp,
+      tags: ["React JS"," Next.js " ,"Node.js"," TypeScript ", "MongoDB","Prisma", "Express", "HTML", "Tailwind CSS", " Zustand "," NextAuth"],
+      github: "https://github.com/riponchandrasaha/Fullstack-Real-Time-Chat-App",
+      webapp: "https://fullstack-real-time-chat-app-nine.vercel.app/",
     },
+     /*
     {
       id: 2,
       title: "Movie Recommendation App",

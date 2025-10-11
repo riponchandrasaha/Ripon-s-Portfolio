@@ -67,7 +67,8 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-2">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[50%] max-w-3xl overflow-hidden relative">
+          <div className="bg-gray-900 rounded-xl shadow-2xl w-full max-w-3xl overflow-hidden relative max-h-[90vh] flex flex-col">
+            {/* Close Button */}
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -77,22 +78,21 @@ const Work = () => {
               </button>
             </div>
 
-            <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+            {/* Scrollable Content */}
+            <div className="overflow-y-auto px-4 pb-6 scrollbar-thin scrollbar-thumb-purple-700 scrollbar-track-gray-800">
+              <div className="flex flex-col items-center">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                  className="w-[95%] object-contain rounded-xl shadow-2xl mb-6"
                 />
-              </div>
-              <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                <p className="text-gray-400 mb-6 text-sm lg:text-base text-justify">
                   {selectedProject.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-6 justify-center">
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
@@ -102,12 +102,12 @@ const Work = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 w-full justify-center">
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg"
                   >
                     View Code
                   </a>
@@ -115,7 +115,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2  bg-purple-600 hover:bg-green-800 text-white px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg"
                   >
                     View Live
                   </a>
