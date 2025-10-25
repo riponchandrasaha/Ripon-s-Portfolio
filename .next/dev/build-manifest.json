@@ -1,0 +1,46 @@
+{
+  "pages": {
+    "/": [
+      "static/chunks/[root-of-the-server]__3dec1b17._.js",
+      "static/chunks/node_modules_next_dist_compiled_c629999b._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_7fdbac9b._.js",
+      "static/chunks/node_modules_react_e3593a73._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
+      "static/chunks/node_modules_react-dom_8a8085df._.js",
+      "static/chunks/node_modules_react-icons_fi_index_mjs_cfeda098._.js",
+      "static/chunks/node_modules_react-icons_fa_index_mjs_c19690bf._.js",
+      "static/chunks/node_modules_react-icons_fa6_index_mjs_d7eacb2c._.js",
+      "static/chunks/node_modules_react-icons_rx_index_mjs_eb7bc59e._.js",
+      "static/chunks/node_modules_react-icons_tb_index_mjs_b57d521e._.js",
+      "static/chunks/node_modules_react-icons_vsc_index_mjs_92819241._.js",
+      "static/chunks/node_modules_react-icons_gi_index_mjs_947787bd._.js",
+      "static/chunks/node_modules_react-icons_lib_7cd2a28b._.js",
+      "static/chunks/node_modules_f82122e1._.js",
+      "static/chunks/pages_index_2da965e7._.js",
+      "static/chunks/turbopack-pages_index_9289f409._.js"
+    ],
+    "/_app": [
+      "static/chunks/node_modules_next_dist_compiled_c629999b._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_6024eba3._.js",
+      "static/chunks/node_modules_react_e3593a73._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
+      "static/chunks/node_modules_react-dom_8a8085df._.js",
+      "static/chunks/node_modules_416396d1._.js",
+      "static/chunks/[root-of-the-server]__ee230e4d._.js",
+      "static/chunks/_19881171._.css",
+      "static/chunks/pages__app_2da965e7._.js",
+      "static/chunks/turbopack-pages__app_842723fc._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}

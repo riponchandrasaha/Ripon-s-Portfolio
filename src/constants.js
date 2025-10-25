@@ -1,59 +1,59 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-/* import angularLogo from './assets/tech_logo/angular.png'; */
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-/* import gsapLogo from './assets/tech_logo/gsap.png'; */
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import Dui from './assets/tech_logo/Dui.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+const htmlLogo = '/tech_logo/html.png';
+const cssLogo = '/tech_logo/css.png';
+const sassLogo = '/tech_logo/sass.png';
+const javascriptLogo = '/tech_logo/javascript.png';
+const reactjsLogo = '/tech_logo/reactjs.png';
+/* const angularLogo = '/tech_logo/angular.png'; */
+const reduxLogo = '/tech_logo/redux.png';
+const nextjsLogo = '/tech_logo/nextjs.png';
+const tailwindcssLogo = '/tech_logo/tailwindcss.png';
+/* const gsapLogo = '/tech_logo/gsap.png'; */
+const materialuiLogo = '/tech_logo/materialui.png';
+const bootstrapLogo = '/tech_logo/bootstrap.png';
+const springbootLogo = '/tech_logo/springboot.png';
+const nodejsLogo = '/tech_logo/nodejs.png';
+const expressjsLogo = '/tech_logo/express.png';
+const mysqlLogo = '/tech_logo/mysql.png';
+const mongodbLogo = '/tech_logo/mongodb.png';
+const firebaseLogo = '/tech_logo/firebase.png';
+const cLogo = '/tech_logo/c.png';
+const cppLogo = '/tech_logo/cpp.png';
+const javaLogo = '/tech_logo/java.png';
+const pythonLogo = '/tech_logo/python.png';
+const typescriptLogo = '/tech_logo/typescript.png';
+const gitLogo = '/tech_logo/git.png';
+const githubLogo = '/tech_logo/github.png';
+const vscodeLogo = '/tech_logo/vscode.png';
+const postmanLogo = '/tech_logo/postman.png';
+const mcLogo = '/tech_logo/mc.png';
+const figmaLogo = '/tech_logo/figma.png';
+const netlifyLogo = '/tech_logo/netlify.png';
+const vercelLogo = '/tech_logo/vercel.png';
+const Dui = '/tech_logo/Dui.png';
+const csharpLogo = '/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import bp from './assets/company_logo/betopiagroup_logo.jpeg';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+const bp = '/company_logo/betopiagroup_logo.jpeg';
+const agcLogo = '/company_logo/agc_logo.png';
+const newtonschoolLogo = '/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-/* import glaLogo from './assets/education_logo/gla_logo.png'; */
-import bsaLogo from './assets/education_logo/ewulogo.png';
-/* import vpsLogo from './assets/education_logo/vps_logo.png'; */
+/* const glaLogo = '/education_logo/gla_logo.png'; */
+const bsaLogo = '/education_logo/ewulogo.png';
+/* const vpsLogo = '/education_logo/vps_logo.png'; */
 
 // Project Section Logo's
-import gocart from './assets/work_logo/gocart.jpg';
-import Chatapp from './assets/work_logo/Chatapp.jpg';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-import removebgLogo1 from './assets/work_logo/image.png';
+const gocart = '/work_logo/gocart.jpg';
+const Chatapp = '/work_logo/Chatapp.jpg';
+const movierecLogo = '/work_logo/movie_rec.png';
+const taskremLogo = '/work_logo/task_rem.png';
+const npmLogo = '/work_logo/npm.png';
+const webverLogo = '/work_logo/web_dig.png';
+const cmLogo = '/work_logo/cm.png';
+const imagesearchLogo = '/work_logo/image_search.png';
+const removebgLogo = '/work_logo/remove_bg.png';
+const removebgLogo1 = '/work_logo/image.png';
 
 
 export const SkillsInfo = [

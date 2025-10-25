@@ -1,8 +1,6 @@
 
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.jpg';
-import profileImage1 from '../../assets/profile3.jpg';
 import { RxResume } from 'react-icons/rx';
 
 import { TbFileCv } from 'react-icons/tb';
@@ -85,7 +83,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={profileImage}
+              src="/profile2.jpg"
               alt="Ripon Chandra Saha"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
@@ -104,7 +102,7 @@ const About = () => {
           transitionSpeed={10}
           gyroscope={true}
         >
-          <img className=' mt-5 rounded-lg' src={profileImage1} alt="" />
+          <img className=' mt-5 rounded-lg' src="/profile3.jpg" alt="" />
           <h3 className='text-purple-700 text-2xl text-center flex justify-center p-4 gap-2 font-semibold'>
             <GiGraduateCap /> Convocation 2025
           </h3>
