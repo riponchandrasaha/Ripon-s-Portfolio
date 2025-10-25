@@ -1765,6 +1765,10 @@ img, video {
   cursor: pointer;
 }
 
+.cursor-text {
+  cursor: text;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -2482,6 +2486,14 @@ html {
   scroll-behavior: smooth;
 }
 
+button, a, [role="button"], input[type="submit"], input[type="button"] {
+  cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  cursor: text;
+}
+
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2511,6 +2523,11 @@ html {
 .hover\:bg-purple-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(107 33 168 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-yellow-950:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 32 6 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-\[\#8245ec\]:hover {

@@ -898,7 +898,7 @@ const About = ()=>{
                                 href: "https://drive.google.com/file/d/1vjJT9xVrJe-Q0SAIGCN7F6v1EbhIGqe8/view",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
-                                className: "btn btn-dash bg-gradient-to-r from-blue-500 to-purple-600",
+                                className: "btn rounded-lg  bg-gradient-to-r from-blue-500 to-purple-600 cursor-pointer",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$rx$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["RxResume"], {}, void 0, false, {
                                         fileName: "[project]/src/components/About/About.jsx",
@@ -1713,7 +1713,7 @@ const Work = ()=>{
                                                 href: selectedProject.github,
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg",
+                                                className: "w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg cursor-pointer",
                                                 children: "View Code"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Work/Work.jsx",
@@ -1724,7 +1724,7 @@ const Work = ()=>{
                                                 href: selectedProject.webapp,
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
-                                                className: "w-1/2  bg-purple-600 hover:bg-green-800 text-white px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg",
+                                                className: "w-1/2  bg-purple-600 hover:bg-green-800 text-white px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg cursor-pointer",
                                                 children: "View Live"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Work/Work.jsx",
@@ -2088,7 +2088,7 @@ const Contact = ()=>{
                                 name: "user_email",
                                 placeholder: "Your Email",
                                 required: true,
-                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500 cursor-text"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Contact/Contact.jsx",
                                 lineNumber: 70,
@@ -2099,7 +2099,7 @@ const Contact = ()=>{
                                 name: "user_name",
                                 placeholder: "Your Name",
                                 required: true,
-                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500 cursor-text"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Contact/Contact.jsx",
                                 lineNumber: 77,
@@ -2110,7 +2110,7 @@ const Contact = ()=>{
                                 name: "subject",
                                 placeholder: "Subject",
                                 required: true,
-                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500 cursor-text"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Contact/Contact.jsx",
                                 lineNumber: 84,
@@ -2121,7 +2121,7 @@ const Contact = ()=>{
                                 placeholder: "Message",
                                 rows: "4",
                                 required: true,
-                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+                                className: "w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500 cursor-text"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Contact/Contact.jsx",
                                 lineNumber: 91,
@@ -2129,7 +2129,7 @@ const Contact = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "submit",
-                                className: "w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition",
+                                className: "w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition cursor-pointer",
                                 children: "Send"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Contact/Contact.jsx",

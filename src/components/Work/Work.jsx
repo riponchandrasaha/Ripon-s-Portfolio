@@ -107,7 +107,7 @@ const Work = () => {
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg"
+                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg cursor-pointer"
                   >
                     View Code
                   </a>
@@ -115,7 +115,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2  bg-purple-600 hover:bg-green-800 text-white px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg"
+                    className="w-1/2  bg-purple-600 hover:bg-green-800 text-white px-4 py-2 rounded-xl text-center font-semibold text-sm lg:text-lg cursor-pointer"
                   >
                     View Live
                   </a>

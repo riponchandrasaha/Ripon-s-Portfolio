@@ -60,7 +60,7 @@ const About = () => {
             href="https://drive.google.com/file/d/1vjJT9xVrJe-Q0SAIGCN7F6v1EbhIGqe8/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dash bg-gradient-to-r from-blue-500 to-purple-600"
+            className="btn rounded-lg  bg-gradient-to-r from-blue-500 to-purple-600 cursor-pointer"
 
           >
             <RxResume />
